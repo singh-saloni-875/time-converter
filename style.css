@@ -1,0 +1,102 @@
+
+
+
+
+
+/* General Page Styling */
+body {
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(to right, #1e3c72, #2a5298);
+    color: white;
+    text-align: center;
+    /* margin: 0; */
+    padding: 0;
+    margin-top: 150px;
+}
+
+/* Header */
+h1 {
+    font-size: 2rem;
+    margin-top: 15px;
+}
+
+/* Dropdown Styles */
+select {
+    width: 80%; /* Adjust for mobile */
+    max-width: 400px; /* Prevents excessive stretching */
+    padding: 12px;
+    margin: 15px 0;
+    border-radius: 10px;
+    border: none;
+    font-size: 1rem;
+    background: #ffffff;
+    color: #333;
+    font-weight: bold;
+}
+
+/* Button */
+button {
+    background: #ff7e5f;
+    border: none;
+    color: white;
+    padding: 12px 20px;
+    font-size: 1.2rem;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+button:hover {
+    background: #feb47b;
+}
+
+/* Time Display */
+.time-display {
+    font-size: 1.5rem;
+    margin-top: 20px;
+    padding: 15px;
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 10px;
+    display: inline-block;
+    width: 80%;
+    max-width: 350px;
+}
+
+/* Footer */
+footer {
+    margin-top: 180px;
+    padding: 20px;
+    background: rgba(0, 0, 0, 0.3);
+    color: #ddd;
+    font-size: 0.9rem;
+}
+
+/* 🌍 Media Queries for Responsiveness */
+@media screen and (max-width: 768px) {  /* Tablets */
+    h1 {
+        font-size: 1.8rem;
+    }
+    select, .time-display {
+        width: 90%;
+    }
+}
+
+@media screen and (max-width: 480px) {  /* Mobile Phones */
+    h1 {
+        font-size: 1.5rem;
+    }
+    select, button {
+        width: 90%;
+        font-size: 1rem;
+    }
+    .time-display {
+        font-size: 1.2rem;
+    }
+    footer {
+        font-size: 0.8rem;
+        position: relative;
+        bottom: 0;
+        /* width: 100%; */
+    }
+}
