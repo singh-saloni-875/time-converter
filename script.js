@@ -62,7 +62,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
     // *Set default timezones*
     homeTZ.value = "Asia/Kolkata"; // *India (IST)*
-    otherTZ.value = "Europe/Istanbul"; // *Turkey (default)*
+    otherTZ.value =  "Europe/Athens"; // *Turkey (default)*
 
     // Function to convert time
     function convertTime() {
